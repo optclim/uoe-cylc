@@ -20,3 +20,5 @@ Running a Workflow
  4. run it
   ```cylc run hello/runN```
   output is in `~/cylc-run/hello/runN/log/job/1/hello/NN/`
+ 5. check progress ```cylc tui hello/runN```
+  
