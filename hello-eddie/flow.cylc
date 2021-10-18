@@ -6,5 +6,7 @@
             hello
         """
 [runtime]
+  [[root]]
+    platform = eddie
   [[hello]]
   script = hello
