@@ -1,0 +1,10 @@
+[scheduling]
+    cycling mode = integer
+    initial cycle point = 1
+    [[graph]]
+        R1 = """
+            hello
+        """
+[runtime]
+  [[hello]]
+  script = hello

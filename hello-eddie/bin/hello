@@ -1,0 +1,4 @@
+#!/bin/env python3
+import socket
+
+print(f'hello world from {socket.gethostname()}')
