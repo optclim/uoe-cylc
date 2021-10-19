@@ -3,3 +3,4 @@
   job runner = sge
   hosts = eddie
   cylc path = /home/mhagdorn/bin/
+  install target = localhost
