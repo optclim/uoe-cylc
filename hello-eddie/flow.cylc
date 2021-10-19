@@ -9,4 +9,9 @@
   [[root]]
     platform = eddie
   [[hello]]
-  script = hello
+  script = hello-wrapper
+     [[[directives]]]
+       -cwd =
+       -l h_rt=00:05:00 
+       -l h_vmem=1G
+       -pe = sharedmem 1

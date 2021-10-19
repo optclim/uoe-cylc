@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+. /etc/profile.d/modules.sh
+module load anaconda
+source activate /exports/eddie/scratch/mhagdorn/cylc/
+
+path=$(dirname $0)
+$path/hello
